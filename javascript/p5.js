@@ -3,5 +3,5 @@ function setup() {
   }
   
   function draw() {
-    background('#ffaaee');
+    background('#66bdc6');
   }
