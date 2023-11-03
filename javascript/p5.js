@@ -1,3 +1,7 @@
+function preload() {
+  baseImg = loadImage('./imgs/redbird-midflap.png')
+}
+
 function setup() {
     createCanvas(400, 650);
   }
