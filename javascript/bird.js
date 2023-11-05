@@ -24,7 +24,7 @@ class Player {
         }
 
         this.y += this.grav;
-        this.y = constrain(this.y, 0, height);
+        this.y = constrain(this.y, 0, 377);
     }  
 
     draw() {
