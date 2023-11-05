@@ -11,7 +11,7 @@ function preload() {
 }
 
 function setup() {
-  bird = new Player(127, 244, baseImg, flyImg, 1, 3);
+  bird = new Player(127, 244, baseImg, flyImg, 5, 1);
   sueloGame = new Suelo(0, 400, sueloImg);
   createCanvas(288, 512);
   
@@ -20,6 +20,8 @@ function setup() {
 
 function draw() {
   background(fondo);
+  bird.update();
   bird.draw();
   sueloGame.draw();
 }
+
